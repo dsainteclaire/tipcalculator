@@ -19,6 +19,8 @@
 		C78A2567193EBDB5001E938B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78A254F193EBDB5001E938B /* UIKit.framework */; };
 		C78A256F193EBDB5001E938B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78A256D193EBDB5001E938B /* InfoPlist.strings */; };
 		C78A2571193EBDB5001E938B /* tipdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A2570193EBDB5001E938B /* tipdemoTests.m */; };
+		C78A257D1941A16C001E938B /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78A257B1941A16C001E938B /* HomeController.m */; };
+		C78A257E1941A16C001E938B /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78A257C1941A16C001E938B /* HomeController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		C78A256C193EBDB5001E938B /* tipdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipdemoTests-Info.plist"; sourceTree = "<group>"; };
 		C78A256E193EBDB5001E938B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C78A2570193EBDB5001E938B /* tipdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipdemoTests.m; sourceTree = "<group>"; };
+		C78A257A1941A16C001E938B /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		C78A257B1941A16C001E938B /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		C78A257C1941A16C001E938B /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				C78A255B193EBDB5001E938B /* AppDelegate.m */,
 				C78A255D193EBDB5001E938B /* Images.xcassets */,
 				C78A2552193EBDB5001E938B /* Supporting Files */,
+				C78A257A1941A16C001E938B /* HomeController.h */,
+				C78A257B1941A16C001E938B /* HomeController.m */,
+				C78A257C1941A16C001E938B /* HomeController.xib */,
 			);
 			path = tipdemo;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78A2556193EBDB5001E938B /* InfoPlist.strings in Resources */,
+				C78A257E1941A16C001E938B /* HomeController.xib in Resources */,
 				C78A255E193EBDB5001E938B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C78A255C193EBDB5001E938B /* AppDelegate.m in Sources */,
+				C78A257D1941A16C001E938B /* HomeController.m in Sources */,
 				C78A2558193EBDB5001E938B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
